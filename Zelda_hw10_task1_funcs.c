@@ -14,11 +14,14 @@
 #include <stdio.h>		/* For Standard I/O */
 #include <stdlib.h>
 
+
 /* Function Defenitions */
 // 1) Function for InputHouse
-struct house InputHouse(......)
+struct house InputHouse(void)
 {
-	//....
+
+
+	return ;
 }
 // 2) Function to PrintHouse info
 void PrintHouse(char *name, struct house h)
