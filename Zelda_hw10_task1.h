@@ -17,6 +17,7 @@
  */
 
 /* Definitions */
+#define NUM 2
 struct house
 {
 	double stNumber;
@@ -25,12 +26,13 @@ struct house
 
 };
 
+
 /* Function Prototypes */
 // 1) Function for InputHouse
 struct house InputHouse(void);
 // 2) Function to PrintHouse info
 void PrintHouse(char *name, struct house h);
 // 3) FUnction to Compare Prices
-int ComparePrices(..........);
+int ComparePrices(void);
 
 
