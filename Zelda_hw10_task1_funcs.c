@@ -20,8 +20,16 @@
 struct house InputHouse(void)
 {
 
+	struct house Input;
 
-	return ;
+	printf("Enter the street number\n");
+	scanf("%lf", &Input.stNumber);
+	printf("Enter the street name\n");
+	scanf("%s", &Input.stName);
+	printf("Enter the price");
+	scanf("%lf", &Input.Price);
+
+	return Input;
 }
 // 2) Function to PrintHouse info
 void PrintHouse(char *name, struct house h)
