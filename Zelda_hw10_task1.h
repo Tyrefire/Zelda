@@ -20,7 +20,7 @@
 struct house
 {
 	double stNumber;
-	char stName;
+	char stName[30];
 	double Price;
 
 };
