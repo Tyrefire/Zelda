@@ -28,20 +28,9 @@ struct house
 /* Function Prototypes */
 // 1) Function for InputHouse
 struct house InputHouse(void);
-	struct house Input
-{
-	printf("Enter the street number\n");
-	scanf("%lf", &Input.stNumber);
-	printf("Enter the street name\n");
-	scanf("%s", &Input.stName);
-	printf("Enter the price");
-	scanf("%lf", &Input.Price);
-
-	return Input;
-}
 // 2) Function to PrintHouse info
 void PrintHouse(char *name, struct house h);
 // 3) FUnction to Compare Prices
-int ComparePrices(..........);
+int ComparePrices(void);
 
 
