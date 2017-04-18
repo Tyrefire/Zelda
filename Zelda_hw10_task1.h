@@ -33,7 +33,7 @@ struct house InputHouse(......);
 	printf("Enter the street number\n");
 	scanf("%lf", &Input.stNumber);
 	printf("Enter the street name\n");
-	scanf("%c", &Input.stName);
+	scanf("%s", &Input.stName);
 	printf("Enter the price");
 	scanf("%lf", &Input.Price);
 
