@@ -48,3 +48,33 @@ int main(int argc, char* argv[])
 			printf("the second house is cheaper\n");
 			break;
 
+		default:
+			printf("invalid comparison value %d, there must be a bug\n", comparison);
+			break;
+	}
+
+	return 0;
+}
+
+
+/* Function Defenitions */
+// 1) Function for InputHouse
+struct house InputHouse(......)
+{
+	//....
+}
+// 2) Function to PrintHouse info
+void PrintHouse(char *name, struct house h)
+{
+	//......
+
+}
+
+// 3) FUnction to Compare Prices
+int ComparePrices(..........)
+{
+	//......
+}
+
+
+
