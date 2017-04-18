@@ -27,7 +27,7 @@ struct house
 
 /* Function Prototypes */
 // 1) Function for InputHouse
-struct house InputHouse(......);
+struct house InputHouse(void);
 	struct house Input
 {
 	printf("Enter the street number\n");
