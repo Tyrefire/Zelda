@@ -14,36 +14,36 @@
 #include <stdio.h>		/* For Standard I/O */
 #include <stdlib.h>
 
-
 /* Function Defenitions */
 // 1) Function for InputHouse
 struct house InputHouse(void)
 {
+	
+	struct house Input[NUM];
 
-	struct house Input;
-
+	for( i = 0; i < NUM; i++)
+	{
 	printf("Enter the street number\n");
-	scanf("%lf", &Input.stNumber);
+	scanf("%lf", &Input[NUM].stNumber);
 	printf("Enter the street name\n");
-	scanf("%s", &Input.stName);
+	scanf("%s", &Input[NUM].stName);
 	printf("Enter the price");
-	scanf("%lf", &Input.Price);
+	scanf("%lf", &Input[NUM].Price);
+	}
 
 	return Input;
 }
 // 2) Function to PrintHouse info
 void PrintHouse(char *name, struct house h)
 {
-	
+
 
 	return;
-
 }
 
 // 3) FUnction to Compare Prices
 int ComparePrices(void)
 {
-	
 
 	return;
 }

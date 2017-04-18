@@ -26,30 +26,30 @@ int main(int argc, char* argv[])
 	printf("\nEnter info for second house\n");
 	struct house secondHouse = InputHouse();
 
-	PrintHouse("first house:", firstHouse);  
-	printf("\n\n");
-	PrintHouse("second house", secondHouse);
-	printf("\n\n");
+//	PrintHouse("first house:", firstHouse);  
+//	printf("\n\n");
+//	PrintHouse("second house", secondHouse);
+//	printf("\n\n");
 
-	int comparison = ComparePrices(firstHouse, secondHouse);
-	switch(comparison)
-	{
-		case -1:
-			printf("the first house is cheaper\n");
-			break;
+//	int comparison = ComparePrices(firstHouse, secondHouse);
+//	switch(comparison)
+//	{
+//		case -1:
+//			printf("the first house is cheaper\n");
+//			break;
+//
+//		case 0:
+//			printf("the two houses are equally expensive\n");
+//			break;
+//
+//		case 1:
+//			printf("the second house is cheaper\n");
+//			break;
 
-		case 0:
-			printf("the two houses are equally expensive\n");
-			break;
-
-		case 1:
-			printf("the second house is cheaper\n");
-			break;
-
-		default:
-			printf("invalid comparison value %d, there must be a bug\n", comparison);
-			break;
-	}
+//		default:
+//			printf("invalid comparison value %d, there must be a bug\n", comparison);
+//			break;
+//	}
 
 	return 0;
 }

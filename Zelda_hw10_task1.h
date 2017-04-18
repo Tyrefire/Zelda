@@ -17,6 +17,7 @@
  */
 
 /* Definitions */
+#define NUM 2
 struct house
 {
 	double stNumber;
@@ -24,6 +25,7 @@ struct house
 	double Price;
 
 };
+
 
 /* Function Prototypes */
 // 1) Function for InputHouse
