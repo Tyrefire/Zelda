@@ -17,9 +17,7 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include "house.h" // Rename this to your name name_hw#_task#.h
-/* Function Prototypes */
-
+#include "Zelda_hw10_task1.h" 
 /* Main Program */
 int main(int argc, char* argv[])
 {
@@ -54,26 +52,6 @@ int main(int argc, char* argv[])
 	}
 
 	return 0;
-}
-
-
-/* Function Defenitions */
-// 1) Function for InputHouse
-struct house InputHouse(......)
-{
-	//....
-}
-// 2) Function to PrintHouse info
-void PrintHouse(char *name, struct house h)
-{
-	//......
-
-}
-
-// 3) FUnction to Compare Prices
-int ComparePrices(..........)
-{
-	//......
 }
 
 
