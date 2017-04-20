@@ -31,25 +31,25 @@ int main(int argc, char* argv[])
 	PrintHouse("second house", secondHouse);
 	printf("\n\n");
 
-//	int comparison = ComparePrices(firstHouse, secondHouse);
-//	switch(comparison)
-//	{
-//		case -1:
-//			printf("the first house is cheaper\n");
-//			break;
-//
-//		case 0:
-//			printf("the two houses are equally expensive\n");
-//			break;
-//
-//		case 1:
-//			printf("the second house is cheaper\n");
-//			break;
+	int comparison = ComparePrices(firstHouse, secondHouse);
+	switch(comparison)
+	{
+		case -1:
+			printf("the first house is cheaper\n");
+			break;
 
-//		default:
-//			printf("invalid comparison value %d, there must be a bug\n", comparison);
-//			break;
-//	}
+		case 0:
+			printf("the two houses are equally expensive\n");
+			break;
+
+		case 1:
+            printf("the second house is cheaper\n");
+			break;
+
+		default:
+			printf("invalid comparison value %d, there must be a bug\n", comparison);
+			break;
+	}
 
 	return 0;
 }
