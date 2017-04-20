@@ -32,6 +32,6 @@ struct house InputHouse(void);
 // 2) Function to PrintHouse info
 void PrintHouse(char *name, struct house h);
 // 3) FUnction to Compare Prices
-int ComparePrices(void);
+int ComparePrices(struct house h1, struct house h2);
 
 
