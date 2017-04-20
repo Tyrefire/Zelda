@@ -26,10 +26,10 @@ int main(int argc, char* argv[])
 	printf("\nEnter info for second house\n");
 	struct house secondHouse = InputHouse();
 
-//	PrintHouse("first house:", firstHouse);  
-//	printf("\n\n");
-//	PrintHouse("second house", secondHouse);
-//	printf("\n\n");
+	PrintHouse("first house:", firstHouse);  
+	printf("\n\n");
+	PrintHouse("second house", secondHouse);
+	printf("\n\n");
 
 //	int comparison = ComparePrices(firstHouse, secondHouse);
 //	switch(comparison)
