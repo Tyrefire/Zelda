@@ -56,12 +56,32 @@ void PrintHouse(char *name, struct house h)
 	return;
 }
 
-// 3) FUnction to Compare Prices
-//int ComparePrices(void)
-//{
+int ComparePrices(struct house h1, struct house h2)
+{
+    int val;
 
-//	return;
-//}
+    printf("First House Price: [%.2lf]\n", h1.Price);
+    printf("Second House Price: [%.2lf]\n", h2.Price);
+
+    if( h1.Price < h2.Price && h1.Price != h2.Price)
+    {
+       val = -1;
+    }
+    else if( h1.Price > h2.Price && h1.Price != h2.Price)
+    {
+       val = 1;
+    }
+    else if( h1.Price == h2.Price) 
+    {
+       val = -0;
+    }
+    else
+    {
+        val = 6;
+    }
+
+	return val;
+}
 
 
 
