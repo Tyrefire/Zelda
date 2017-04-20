@@ -17,11 +17,10 @@
  */
 
 /* Definitions */
-#define NUM 2
 struct house
 {
-	double stNumber;
-	char stName[30];
+	int stNumber;
+	char stName[20];
 	double Price;
 
 };
