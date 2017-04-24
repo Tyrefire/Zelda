@@ -1,0 +1,239 @@
+commit c99d2071cd554bdf7b723357566a92550050d316
+Author: Tyler Madsen <tylermadsen@mail.weber.edu>
+Date:   Sun Apr 23 22:37:36 2017 -0600
+
+    Upload
+
+commit 772b95354567d1c0c44dfe1cc22862fdbbf4f3c3
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Sun Apr 23 20:41:37 2017 -0600
+
+    Added Read func. Compiles but still very buggy
+
+commit 9a19d8493066daaece6aea3d9fe6eb7247baf3b9
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Sun Apr 23 20:04:08 2017 -0600
+
+    added a few funcs. Study CSFileProcessing from guest lecture for further ideas
+
+commit 37ce518b84822a769a7ced6180e53056720247ad
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Sun Apr 23 19:40:56 2017 -0600
+
+    added string library to task3
+
+commit 48875cc182d1031c1cd078780fd7a6f470ad3312
+Author: Andrewlittle97 <andrewlittle@mail.weber.edu>
+Date:   Sun Apr 23 12:08:34 2017 -0600
+
+    file
+
+commit 7cf53856ebf42894954831f46a2ce8b84c13d54d
+Author: Andrewlittle97 <andrewlittle@mail.weber.edu>
+Date:   Sun Apr 23 12:04:30 2017 -0600
+
+    usage
+
+commit 3a28e8ebdc203b5007eae59fd2841f24b52969a3
+Author: Andrewlittle97 <andrewlittle@mail.weber.edu>
+Date:   Sun Apr 23 11:59:13 2017 -0600
+
+    usage
+
+commit 08c0ac430aed63865fcf34095c2d3536892f761a
+Author: Tyler Madsen <tylermadsen@mail.weber.edu>
+Date:   Wed Apr 19 20:51:12 2017 -0600
+
+    Reupload
+
+commit cc2d8bdeee1c9328568cfcf4f6e6ff8e7fb10412
+Author: Tyler Madsen <tylermadsen@mail.weber.edu>
+Date:   Wed Apr 19 20:47:59 2017 -0600
+
+    task 2, include waves.txt
+
+commit ffe4813f37bd6248fb5a42dbac400b99766bf91d
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Wed Apr 19 19:25:48 2017 -0600
+
+    Completed func3. Task 1 complete
+
+commit 33dc53d6da0fc28e6f9461330f1250cf34a18a63
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Wed Apr 19 19:25:12 2017 -0600
+
+    updated compare func
+
+commit 636d9a600403efee12006eecc1408864ae4c1d55
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Wed Apr 19 19:24:37 2017 -0600
+
+    main .c complete
+
+commit e6e7e812de2c2e21f8d8eb8de30424ae15a6894e
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Wed Apr 19 18:42:14 2017 -0600
+
+    .h update
+
+commit 90e8369cdc528e25f3c8b7f4cd00e58aa7fbcfe5
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Wed Apr 19 18:41:56 2017 -0600
+
+    funcs 1 & 2 are done
+
+commit 024d7beac1d9cc0db96843afb48d8c87d8a4d5cc
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Wed Apr 19 18:41:27 2017 -0600
+
+    .c has been updated for 2 funcs
+
+commit e26a899d94334d4fd4263f4cfe5c11550368d65c
+Merge: bedbf34 94fc626
+Author: Andrewlittle97 <andrewlittle@mail.weber.edu>
+Date:   Tue Apr 18 16:18:31 2017 +0000
+
+    k
+
+commit bedbf34d66036e821a3dd93c59cfa807986743c1
+Author: Andrewlittle97 <andrewlittle@mail.weber.edu>
+Date:   Tue Apr 18 16:11:51 2017 +0000
+
+    k
+
+commit 94fc62669c8c6498ad601a97cd454d0bb7aca298
+Merge: 53393fc dbf4ccb
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Tue Apr 18 16:07:42 2017 +0000
+
+    Merge branch 'master' of https://github.com/Tyrefire/Zelda
+
+commit 53393fcfebb2419e7c7d049366f4acb3a72ed2b5
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Tue Apr 18 16:07:00 2017 +0000
+
+    added forloop
+
+commit 4d60de1d61c9205994bbecad78417d15f16db9c9
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Tue Apr 18 16:06:47 2017 +0000
+
+    added definition
+
+commit 7b790b38b94cda5d62038b8dcbe37f184ec55163
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Tue Apr 18 16:06:04 2017 +0000
+
+    commented out some stuff
+
+commit dbf4ccbdb3aa4b1d6d4df191f2a998c253f6e095
+Merge: f8e4e8d 7da4924
+Author: Andrewlittle97 <andrewlittle@mail.weber.edu>
+Date:   Tue Apr 18 15:54:11 2017 +0000
+
+    Merge branch 'master' of github.com:Tyrefire/Zelda
+
+commit f8e4e8d8a0f43c39fa8efd0dc116ed6742f5bfb3
+Author: Andrewlittle97 <andrewlittle@mail.weber.edu>
+Date:   Tue Apr 18 15:54:05 2017 +0000
+
+    i
+
+commit 7da4924c37dd08c6dfaaddc8beb7b6014416b868
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Tue Apr 18 15:51:02 2017 +0000
+
+    fixed2
+
+commit f4f6bb48703384a6c3f4e7d4d45adf5813057710
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Tue Apr 18 15:50:43 2017 +0000
+
+    fixed
+
+commit 599e81908ddfe8810b143188284c23ac490c4f09
+Merge: fcefd32 50b8bca
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Tue Apr 18 15:43:29 2017 +0000
+
+    merge
+
+commit 50b8bcae0fd472638782c4a314cd20b7aeaee824
+Author: Andrewlittle97 <andrewlittle@mail.weber.edu>
+Date:   Tue Apr 18 15:42:23 2017 +0000
+
+    func1
+
+commit fcefd329181a398a511cbf73baf1ef7e2cd4d7e0
+Merge: 7d55947 3d89ffa
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Tue Apr 18 15:42:18 2017 +0000
+
+    update
+
+commit 7d55947579ebc60d2d3351f5f880579240e1a069
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Tue Apr 18 15:40:53 2017 +0000
+
+    update
+
+commit 3d89ffaf095474560e19f6099442b701bb9075b5
+Author: Andrewlittle97 <andrewlittle@mail.weber.edu>
+Date:   Tue Apr 18 15:39:51 2017 +0000
+
+    task1
+
+commit 2e3396770c6528be448ea40397dd19eee0d7b882
+Author: Andrewlittle97 <andrewlittle@mail.weber.edu>
+Date:   Tue Apr 18 15:38:19 2017 +0000
+
+    task1
+
+commit 81ca6b3829b4fe2a9c4885c0076ceb7186342eb5
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Tue Apr 18 15:14:20 2017 +0000
+
+    added task1func.c
+
+commit 07de9ca43c9ec6a0ff76bfed11cb38ec88812930
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Tue Apr 18 15:04:54 2017 +0000
+
+    updated
+
+commit 4daf6ae9b9a5ce9ca466b1c17d7ca94930d53a3e
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Tue Apr 18 14:47:21 2017 +0000
+
+    task1
+
+commit 70acc512a6dc136ddda765261c8a6166e8700b56
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Tue Apr 18 14:45:06 2017 +0000
+
+    updated task1
+
+commit fb061fc1a3858911ffb62e03217d451343441693
+Merge: 3a53b14 19c2ade
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Tue Apr 18 14:42:27 2017 +0000
+
+    Merge branch 'master' of https://github.com/Tyrefire/Zelda
+
+commit 3a53b14b4f8ceb5e5af185f43cac721182b7b87d
+Author: Orlando Salas <orlandosalas@mail.weber.edu>
+Date:   Tue Apr 18 14:42:00 2017 +0000
+
+    added houseSample.c
+
+commit 19c2ade2ac4f2264c4766f2532816973fc83c220
+Author: Tyler Madsen <tylermadsen@mail.weber.edu>
+Date:   Tue Apr 18 14:40:40 2017 +0000
+
+    upload
+
+commit b6131cfd9ab15f6ac5724d798bf3ff40b160f178
+Author: Tyrefire <twmadsen@msn.com>
+Date:   Tue Apr 18 08:33:02 2017 -0600
+
+    Initial commit
