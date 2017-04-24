@@ -17,9 +17,12 @@
 
 /* Function Prototypes */
 void Usage(char**info);
+void FileRead(char *fileName);
+void ReadChar(FILE *inFile, char data[][8]); // 3 headers, 8 char. string.
 /* Main Program */
 int main(int argc, char *argv[])
 {
+
 
 	if(argc != 2)
 	{
@@ -39,9 +42,24 @@ void Usage(char**info)
 {
 	printf("\nParameters\n");
 	printf("./Task3 <filename.txt>\n");
-	printf("filename should be: [mp3data.txt]\n");
+	printf("filename should be: [mp3Header.txt]\n");
 	exit(1);
 
 	return;
 }
 
+void FileRead(char *fileName)
+{
+    FILE *txtfile = fopen(fileName, "r");
+    if(txtfile == NULL)
+    {
+        printf("%s", "File NOT FOUND\n");
+        exit(1);
+    }
+    return;
+}
+void ReadChar(FILE *inFile, char data[][8])
+{
+
+    return;
+}
