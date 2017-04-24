@@ -17,12 +17,13 @@
 
 /* Function Prototypes */
 void Usage(char**info);
-void FileRead(char *fileName);
+FILE *FileRead(char *fileName);
 void ReadChar(FILE *inFile, char data[][8]); // 3 headers, 8 char. string.
 /* Main Program */
 int main(int argc, char *argv[])
 {
-
+    char rec[3][8]; // 3 headers, 8 char string.
+    FILE *txtfile;
 
 	if(argc != 2)
 	{
@@ -33,6 +34,18 @@ int main(int argc, char *argv[])
 		printf("Calling Help Information\n");
 		Usage(argv);
 	}
+    // open file
+    txtfile = FileRead("mp3Header.txt");
+    // read file at char level
+    ReadChar(txtfile, &rec[0]);
+    
+    for( int i = 0; i < 3; i++)
+    {
+        printf("%s", rec[i]);
+    }
+
+
+
 	return 0;
 }
 
@@ -48,7 +61,7 @@ void Usage(char**info)
 	return;
 }
 
-void FileRead(char *fileName)
+FILE *FileRead(char *fileName)
 {
     FILE *txtfile = fopen(fileName, "r");
     if(txtfile == NULL)
@@ -56,10 +69,34 @@ void FileRead(char *fileName)
         printf("%s", "File NOT FOUND\n");
         exit(1);
     }
-    return;
+    return txtfile;
 }
 void ReadChar(FILE *inFile, char data[][8])
 {
+    char ch = fgetc(inFile);
+    int rec = 0;
+    int rec_pos = 0;
+
+    while(ch != EOF)
+    {
+    // datascan
+    data[rec][rec_pos] = ch;
+
+        if(data[rec][rec_pos] == ',')
+        {
+            data[rec][rec_pos] = '\0';
+            rec_pos = 0;
+
+            rec++;
+        }
+        else
+        {
+            rec_pos++;
+        }
+        ch=fgetc(inFile);
+    }
+    data[rec][rec_pos] = '\0';
+
 
     return;
 }
