@@ -13,6 +13,7 @@
  */
 #include <stdio.h>		/* For Standard I/O */
 #include <stdlib.h>
+#include <string.h>
 
 /* Function Prototypes */
 void Usage(char**info);
@@ -26,7 +27,7 @@ int main(int argc, char *argv[])
 	}
 	if(strcmp(argv[1],  "--help") == 0)
 	{
-		printf("Calling Help Information");
+		printf("Calling Help Information\n");
 		Usage(argv);
 	}
 	return 0;
@@ -36,8 +37,9 @@ int main(int argc, char *argv[])
 /* Function Defenitions */
 void Usage(char**info)
 {
-	printf("Parameters\n");
-	printf("./Task3 <input file>\n");
+	printf("\nParameters\n");
+	printf("./Task3 <filename.txt>\n");
+	printf("filename should be: [mp3data.txt]\n");
 	exit(1);
 
 	return;
