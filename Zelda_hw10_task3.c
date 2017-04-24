@@ -17,13 +17,15 @@
 
 /* Function Prototypes */
 void Usage(char**info);
-FILE *FileRead(char *fileName);
-void ReadChar(FILE *inFile, char data[][8]); // 3 headers, 8 char. string.
+void FileRead(char *fileName, char num[]);
+// void ReadChar(FILE *inFile, char data[][8]); // 3 headers, 8 char. string
+
 /* Main Program */
 int main(int argc, char *argv[])
 {
-    char rec[3][8]; // 3 headers, 8 char string.
-    FILE *txtfile;
+	//char rec[3][8]; // 3 headers, 8 char string.
+	//FILE *txtfile;
+	char num[8];
 
 	if(argc != 2)
 	{
@@ -34,23 +36,25 @@ int main(int argc, char *argv[])
 		printf("Calling Help Information\n");
 		Usage(argv);
 	}
-    // open file
-    txtfile = FileRead("mp3Header.txt");
-    // read file at char level
-    ReadChar(txtfile, &rec[0]);
-    
-    for( int i = 0; i < 3; i++)
-    {
-        printf("%s", rec[i]);
-    }
+	// open file
+	FileRead(argv[1], num);
+	// read file at char level
+	// //ReadChar(txtfile, &rec[0]);
 
+
+	/*
+	for( int i = 0; i < 3; i++)
+	{
+		printf("%s", rec[i]);
+	}
+	*/
 
 
 	return 0;
 }
 
 
-/* Function Defenitions */
+/* Function Definitions */
 void Usage(char**info)
 {
 	printf("\nParameters\n");
@@ -61,17 +65,53 @@ void Usage(char**info)
 	return;
 }
 
-FILE *FileRead(char *fileName)
+void FileRead(char *fileName, char num[])
 {
-    FILE *txtfile = fopen(fileName, "r");
-    if(txtfile == NULL)
-    {
-        printf("%s", "File NOT FOUND\n");
-        exit(1);
-    }
-    return txtfile;
+	FILE *in;
+	int count = 1;
+
+	in = fopen(fileName, "r");
+	if(fileName == NULL)
+	{
+		printf("File NOT FOUND\n");
+		exit(1);
+	}
+
+	printf("File Successfully opened\n");
+
+	while(fscanf(in, "%c", &num[count]) != EOF)
+	{
+		printf("Scanning %s\n" (*num[count]));
+		count++;
+	}
+
+	/*  int rec = 0;
+	int pos = 0;
+
+	char ch = fgetc(in);
+	while(ch != EOF)
+	{
+		num[rec][pos] = ch;
+		if(num[rec][pos] == ',')
+		{
+			num[rec][pos] = '\0';
+			pos = 0;
+			rec++;
+		}
+		else
+		{
+			pos++;
+		}
+		ch = fgetc(in);
+	}
+
+	num[rec][pos] = '\0';
+	*/
+
+    return;
 }
-void ReadChar(FILE *inFile, char data[][8])
+
+/*  void ReadChar(FILE *inFile, char data[][8])
 {
     char ch = fgetc(inFile);
     int rec = 0;
@@ -97,6 +137,7 @@ void ReadChar(FILE *inFile, char data[][8])
     }
     data[rec][rec_pos] = '\0';
 
-
     return;
 }
+
+*/
